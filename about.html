@@ -2,15 +2,32 @@
 <html lang="en-US">
 <head>
            	<meta charset="utf-8">
-           	<title>About</title>
+            <link rel="stylesheet" href="nav.css">
+            <link rel="stylesheet" href="style.css">
+           	    <title>About</title>
 </head>
-<!--This is another draft of my About page for my portfoltio.-->
+<!--This is another draft of my About page for my portfoltio with nav and style.-->
 <body>
+    <nav class="nav_menu_about"> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+</nav>
 <header>
-    <h1>Amanda Rhine</h1>
+    <h1 class="header_about">Amanda Rhine</h1>
 </header>
 <main>
 <H3>Aspiring eLearning Designer</H3>
+<br></br>
     
 <p>Hi, my name is Amanda, and I’m studying to be an elearning designer. 
     I earned my <em>bachelor’s</em> and <em>master’s degrees</em> in <b>English</b> from California State University, Chico. 
@@ -23,10 +40,12 @@
     to teach online. That experience is why I decided to return to school and study educational technology. 
     I want students and teachers to have easy access to quality elearning and have fun at the same time.</p>
 
-    <p>Click <a href ="Rhine_resume.pdf"> HERE </a> to view my resume.</p>
+    <div style="text-align: center;">Click <a href ="Rhine_resume.pdf"> HERE </a> to view my resume.</div>
+    <br>
    
-    <blockquote style="font-size: 14pt; font-family: cursive; color:green;">"Read everything. Write anything. Most importanly, 
+    <blockquote style="font-size: 14pt; font-family: cursive; color:blue; text-align: right;">"Read everything. Write anything. Most importantly, 
         wear comfortable shoes." —Amanda Rhine</blockquote>
+        <br></br>
 
 <h3>Education</h3>
 <nav>
@@ -46,13 +65,14 @@
             <ol><li>Graduate Certificate in Serious Games and Simulation Design, <em>expected completion December 2024</em></li>
             </ol>
     </ul>
+    <br></br>
 
 </nav>
 </main>
 
 <footer>
-    <p>Amanda Rhine, <a href="mailto:argmd@missouri.edu">argmd@missouri.edu</a></p>
-    <p>&copy; Copyright 2023 Amanda Rhine</p>
+    <div>Amanda Rhine, <a href="mailto:argmd@missouri.edu">argmd@missouri.edu</a><div>
+    <div>&copy; Copyright 2023 Amanda Rhine</div>
 </footer>
 </body>
 </html>
