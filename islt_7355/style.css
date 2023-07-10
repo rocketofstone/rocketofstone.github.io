@@ -100,6 +100,36 @@
     .parag_backg_index {background: white;}
   }
 
+  /*project page media query*/
+  .parag_backg_index {
+    padding: 20px;
+    color: black;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .parag_backg_project {background: pink;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .parag_backg_project {background: pink;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .parag_backg_project {background: pink;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .parag_backg_project {background: pink;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .parag_backg_project {background: white;}
+  }
+
 /*bad code don't use - ref maybe
 .col_1{
     display: flex;
