@@ -3,6 +3,123 @@
 .header_proj {color: red}
 .header_refl {color: orange}
 .header_cont {color: green}
+.image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /*about page media query*/
+  .parag_backg_about {
+    padding: 20px;
+    color: black;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .parag_backg_about {background: lightblue;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .parag_backg_about {background: lightblue;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .parag_backg_about{background: lightblue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .parag_backg_about {background: lightblue;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .parag_backg_about{background: white;}
+  }
+
+   /*reflect page media query*/
+   .parag_backg_reflect {
+    padding: 20px;
+    color: black;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .parag_backg_reflect {background: lightcoral;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .parag_backg_reflect {background: lightcoral;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .parag_backg_reflect {background: lightcoral;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .parag_backg_reflect {background: lightcoral;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .parag_backg_reflect {background: white;}
+  }
+
+   /*home page media query*/
+   .parag_backg_index {
+    padding: 20px;
+    color: black;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .parag_backg_index {background: violet;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .parag_backg_index {background: violet;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .parag_backg_index {background: violet;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .parag_backg_index {background: violet;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .parag_backg_index {background: white;}
+  }
+
+/*bad code don't use - ref maybe
+.col_1{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    background: beige;
+    width: 150px;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    text-align: center;
+}*/
+
 
 .parag_reflect {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
@@ -26,7 +143,7 @@ flex-item{
     width: 200px;
     margin: 10;
     border: 3px solid #333;
-    background-color: white;
+    background-color: lightblue;
 }
 
 .flex-item1{
