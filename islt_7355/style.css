@@ -1,14 +1,33 @@
 .header_home {color: purple}
-.header_about {color: blue}
+.header_about {color: blue;
+  font-family: Montserrat}
 .header_proj {color: red}
 .header_refl {color: orange}
 .header_cont {color: green}
+
+@font-face { 
+  font-family: Montserrat; /*this is where we give our font a name so we can use it!*/
+  src: url("Montserrat-VariableFont_wght.ttf"); /*remember this is how we link to files in CSS!*/
+  src: url("Montserrat-Italic-VariableFont_wght.tff")
+  }
+
 .image_center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
+
+  .icons{
+    width: 50px; 
+    height:50px;
+    transition: transform .2s;
+  }
+
+  .icons:hover {
+    transform: scale(1.5);
+  }
+
   .footer_icons_home{
     text-align: center;
     padding: 3px;
@@ -17,11 +36,13 @@
     color: white;
   }
 
+
   /*need to make video responsive*/
   .video_resume {
     max-width: 100%;
     height: auto;
   }
+
 
   /*about page media query*/
   .parag_backg_about {
@@ -192,3 +213,25 @@ flex-item{
 .flex-item1{
     min-height: 100px;
 }
+
+
+@media print {
+  * {
+background: transparent !important;
+color: black !important;
+font-size: 10pt;
+font-family: 'Times New Roman', Times, sans-serif;
+box-shadow: none !important;
+text-shadow: none !important;
+ }
+ .nav_menu_about,
+ .video_resume,
+ .image_center {
+  display: none;
+ }
+ @page {
+  margin: 1in;
+ }
+
+  }
+  
