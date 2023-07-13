@@ -119,7 +119,7 @@ font-family: Arial, Helvetica,
   box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5); }
 
   /*This is the nav style for the Home page*/
-.nav_menu_home {background-color: purple;
+.nav_menu_home {background-color: #702963;
 	border-radius: 6px; }
 
 .nav_menu_home ul {
@@ -150,7 +150,7 @@ font-family: Arial, Helvetica,
   display: block;
   position: absolute;
   margin-top: 5px;
-  background: purple;
+  background: #702963;
   border-radius: 6px;
   width: 100%;
   padding: 10px 2px;

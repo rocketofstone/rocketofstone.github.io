@@ -9,6 +9,15 @@
     margin-right: auto;
     width: 50%;
   }
+  .footer_icons_home{
+    text-align: center;
+    padding: 3px;
+    /*background-color: purple;*/
+    background: url("purplefooter.jpg");
+    color: white;
+  }
+
+  /*need to make video responsive*/
   .video_resume {
     max-width: 100%;
     height: auto;
@@ -81,22 +90,22 @@
   }
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    .parag_backg_index {background: violet;}
+    .parag_backg_index {background: #BDB5D5;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    .parag_backg_index {background: violet;}
+    .parag_backg_index {background: #BDB5D5;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    .parag_backg_index {background: violet;}
+    .parag_backg_index {background: #BDB5D5;}
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .parag_backg_index {background: violet;}
+    .parag_backg_index {background: #BDB5D5;}
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
