@@ -1,9 +1,27 @@
 .header_home {color: purple}
-.header_about {color: blue;
-  font-family: Montserrat}
-.header_proj {color: red}
+.header_about {color: blue}
+.header_proj {color: #d3273e}
 .header_refl {color: orange}
 .header_cont {color: green}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+/* On mouse-over */
+/* Blue */
+.btn_resume {
+  color: blue;
+}
+.btn_resume:hover {
+  background: #2196F3;
+  color: white;
+}
+
 
 @font-face { 
   font-family: Montserrat; /*this is where we give our font a name so we can use it!*/

@@ -7,6 +7,37 @@
             <link rel="stylesheet" href="nav.css">
             <link rel="stylesheet" href="style.css">
            	    <title>Projects</title>
+
+                   <style>
+                  /*embedded css for layout*/
+                    #main-container {
+                      display: flex;
+                      width: 100%;
+                      justify-content: center;
+                      background-color: pink;
+                    }
+                    #main-container div {
+                      background-color: #d3273e;
+                      color: white;
+                      padding: 10px;
+                    }
+
+        .horizontal_line {
+            background-color: white;
+            width: 100%;
+            height: 5px;
+            border-top: 5px dotted black;
+            line-height: 80%;
+        }
+  
+        .line {
+            border-bottom: 5px solid #d3273e;
+            margin-top: 5px;
+            width: 100%;
+        }
+                  </style> 
+
+                  
 </head>
  <!-- This is the draft of the project page for my portfolio with nav and style.-->
 <body>
@@ -16,9 +47,9 @@
             <li><a href="about.html">About</a></li>
             <li><a href="project.html">Projects</a>
                 <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#anchor1">Demo1</a></li>
+                    <li><a href="#anchor2">Demo2</a></li>
+                    <li><a href="#anchor3">Demo3</a></li>
                 </ul>
         <li><a href="reflection.html">Reflection</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -28,7 +59,42 @@
     <h1 class="header_proj">Projects</h1>
 </header>
 <main>
-    <p class="parag_backg_project">Here are some of my recent project. [To be added soon]</p>
+
+        <p>Here are a few of my recent projects. More example available upon request.</p>      
+        <br>
+        <div id="main-container">
+            <div id="anchor1"> A "How to Prepare for a Wildfire: Defensible Space" demo using Captivate 2019, narrated by AI.</div>
+          </div>
+        <div id="main-container">
+            <video width="650" height="400" controls>
+                <source src="Defensible Space Demo.mp4" type="video/mp4">
+            </video>
+          </div>
+<br>
+          <div class="horizontal_line"></div>
+          <div class="line"></div>          
+
+          <div id="main-container">
+            <div id="anchor2"> Another Captivate 2019 demo about "States of Matter."</div>
+          </div>
+          <div id="main-container">
+            <video width="650" height="400" controls>
+                <source src="StatesofMatterv2.mp4" type="video/mp4">
+            </video>
+          </div>
+        
+ <br>
+          <div class="horizontal_line"></div>
+          <div class="line"></div>          
+
+          <div id="main-container">
+            <div id="anchor3"> Short video: "10 Interesting Facts About Spiders," narrated by AI.</div>
+            </div>
+          <div id="main-container">
+            <video width="650" height="400" controls>
+                <source src="10_Interesting_Facts_About_Spiders.mp4" type="video/mp4">
+            </video>
+          </div>
 
 </main>
 <footer class="footer_icons_home">
